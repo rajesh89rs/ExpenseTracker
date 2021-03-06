@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1036063625F40EC000487EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036063525F40EC000487EC7 /* AppDelegate.swift */; };
+		1036063825F40EC000487EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036063725F40EC000487EC7 /* SceneDelegate.swift */; };
+		1036063A25F40EC000487EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036063925F40EC000487EC7 /* ViewController.swift */; };
+		1036063D25F40EC000487EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036063B25F40EC000487EC7 /* Main.storyboard */; };
+		1036063F25F40EC200487EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1036063E25F40EC200487EC7 /* Assets.xcassets */; };
+		1036064225F40EC200487EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036064025F40EC200487EC7 /* LaunchScreen.storyboard */; };
+		1036064D25F40EC200487EC7 /* MutualFundTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036064C25F40EC200487EC7 /* MutualFundTrackerTests.swift */; };
+		1036065825F40EC200487EC7 /* MutualFundTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036065725F40EC200487EC7 /* MutualFundTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1036064925F40EC200487EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1036062A25F40EC000487EC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1036063125F40EC000487EC7;
+			remoteInfo = MutualFundTracker;
+		};
+		1036065425F40EC200487EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1036062A25F40EC000487EC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1036063125F40EC000487EC7;
+			remoteInfo = MutualFundTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1036063225F40EC000487EC7 /* MutualFundTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutualFundTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1036063525F40EC000487EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1036063725F40EC000487EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1036063925F40EC000487EC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1036063C25F40EC000487EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1036063E25F40EC200487EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1036064125F40EC200487EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1036064325F40EC200487EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1036064825F40EC200487EC7 /* MutualFundTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualFundTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1036064C25F40EC200487EC7 /* MutualFundTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundTrackerTests.swift; sourceTree = "<group>"; };
+		1036064E25F40EC200487EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1036065325F40EC200487EC7 /* MutualFundTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualFundTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1036065725F40EC200487EC7 /* MutualFundTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundTrackerUITests.swift; sourceTree = "<group>"; };
+		1036065925F40EC200487EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1036062F25F40EC000487EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1036064525F40EC200487EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1036065025F40EC200487EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1036062925F40EC000487EC7 = {
+			isa = PBXGroup;
+			children = (
+				1036063425F40EC000487EC7 /* MutualFundTracker */,
+				1036064B25F40EC200487EC7 /* MutualFundTrackerTests */,
+				1036065625F40EC200487EC7 /* MutualFundTrackerUITests */,
+				1036063325F40EC000487EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1036063325F40EC000487EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1036063225F40EC000487EC7 /* MutualFundTracker.app */,
+				1036064825F40EC200487EC7 /* MutualFundTrackerTests.xctest */,
+				1036065325F40EC200487EC7 /* MutualFundTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1036063425F40EC000487EC7 /* MutualFundTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1036063525F40EC000487EC7 /* AppDelegate.swift */,
+				1036063725F40EC000487EC7 /* SceneDelegate.swift */,
+				1036063925F40EC000487EC7 /* ViewController.swift */,
+				1036063B25F40EC000487EC7 /* Main.storyboard */,
+				1036063E25F40EC200487EC7 /* Assets.xcassets */,
+				1036064025F40EC200487EC7 /* LaunchScreen.storyboard */,
+				1036064325F40EC200487EC7 /* Info.plist */,
+			);
+			path = MutualFundTracker;
+			sourceTree = "<group>";
+		};
+		1036064B25F40EC200487EC7 /* MutualFundTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1036064C25F40EC200487EC7 /* MutualFundTrackerTests.swift */,
+				1036064E25F40EC200487EC7 /* Info.plist */,
+			);
+			path = MutualFundTrackerTests;
+			sourceTree = "<group>";
+		};
+		1036065625F40EC200487EC7 /* MutualFundTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1036065725F40EC200487EC7 /* MutualFundTrackerUITests.swift */,
+				1036065925F40EC200487EC7 /* Info.plist */,
+			);
+			path = MutualFundTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1036063125F40EC000487EC7 /* MutualFundTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1036065C25F40EC200487EC7 /* Build configuration list for PBXNativeTarget "MutualFundTracker" */;
+			buildPhases = (
+				1036062E25F40EC000487EC7 /* Sources */,
+				1036062F25F40EC000487EC7 /* Frameworks */,
+				1036063025F40EC000487EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutualFundTracker;
+			productName = MutualFundTracker;
+			productReference = 1036063225F40EC000487EC7 /* MutualFundTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1036064725F40EC200487EC7 /* MutualFundTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1036065F25F40EC200487EC7 /* Build configuration list for PBXNativeTarget "MutualFundTrackerTests" */;
+			buildPhases = (
+				1036064425F40EC200487EC7 /* Sources */,
+				1036064525F40EC200487EC7 /* Frameworks */,
+				1036064625F40EC200487EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1036064A25F40EC200487EC7 /* PBXTargetDependency */,
+			);
+			name = MutualFundTrackerTests;
+			productName = MutualFundTrackerTests;
+			productReference = 1036064825F40EC200487EC7 /* MutualFundTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1036065225F40EC200487EC7 /* MutualFundTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1036066225F40EC200487EC7 /* Build configuration list for PBXNativeTarget "MutualFundTrackerUITests" */;
+			buildPhases = (
+				1036064F25F40EC200487EC7 /* Sources */,
+				1036065025F40EC200487EC7 /* Frameworks */,
+				1036065125F40EC200487EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1036065525F40EC200487EC7 /* PBXTargetDependency */,
+			);
+			name = MutualFundTrackerUITests;
+			productName = MutualFundTrackerUITests;
+			productReference = 1036065325F40EC200487EC7 /* MutualFundTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1036062A25F40EC000487EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1036063125F40EC000487EC7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1036064725F40EC200487EC7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1036063125F40EC000487EC7;
+					};
+					1036065225F40EC200487EC7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1036063125F40EC000487EC7;
+					};
+				};
+			};
+			buildConfigurationList = 1036062D25F40EC000487EC7 /* Build configuration list for PBXProject "MutualFundTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1036062925F40EC000487EC7;
+			productRefGroup = 1036063325F40EC000487EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1036063125F40EC000487EC7 /* MutualFundTracker */,
+				1036064725F40EC200487EC7 /* MutualFundTrackerTests */,
+				1036065225F40EC200487EC7 /* MutualFundTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1036063025F40EC000487EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1036064225F40EC200487EC7 /* LaunchScreen.storyboard in Resources */,
+				1036063F25F40EC200487EC7 /* Assets.xcassets in Resources */,
+				1036063D25F40EC000487EC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1036064625F40EC200487EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1036065125F40EC200487EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1036062E25F40EC000487EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1036063A25F40EC000487EC7 /* ViewController.swift in Sources */,
+				1036063625F40EC000487EC7 /* AppDelegate.swift in Sources */,
+				1036063825F40EC000487EC7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1036064425F40EC200487EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1036064D25F40EC200487EC7 /* MutualFundTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1036064F25F40EC200487EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1036065825F40EC200487EC7 /* MutualFundTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1036064A25F40EC200487EC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1036063125F40EC000487EC7 /* MutualFundTracker */;
+			targetProxy = 1036064925F40EC200487EC7 /* PBXContainerItemProxy */;
+		};
+		1036065525F40EC200487EC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1036063125F40EC000487EC7 /* MutualFundTracker */;
+			targetProxy = 1036065425F40EC200487EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1036063B25F40EC000487EC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1036063C25F40EC000487EC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1036064025F40EC200487EC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1036064125F40EC200487EC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1036065A25F40EC200487EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1036065B25F40EC200487EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1036065D25F40EC200487EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MutualFundTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1036065E25F40EC200487EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MutualFundTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1036066025F40EC200487EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MutualFundTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutualFundTracker.app/MutualFundTracker";
+			};
+			name = Debug;
+		};
+		1036066125F40EC200487EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MutualFundTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutualFundTracker.app/MutualFundTracker";
+			};
+			name = Release;
+		};
+		1036066325F40EC200487EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MutualFundTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MutualFundTracker;
+			};
+			name = Debug;
+		};
+		1036066425F40EC200487EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MutualFundTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MutualFundTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1036062D25F40EC000487EC7 /* Build configuration list for PBXProject "MutualFundTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1036065A25F40EC200487EC7 /* Debug */,
+				1036065B25F40EC200487EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1036065C25F40EC200487EC7 /* Build configuration list for PBXNativeTarget "MutualFundTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1036065D25F40EC200487EC7 /* Debug */,
+				1036065E25F40EC200487EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1036065F25F40EC200487EC7 /* Build configuration list for PBXNativeTarget "MutualFundTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1036066025F40EC200487EC7 /* Debug */,
+				1036066125F40EC200487EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1036066225F40EC200487EC7 /* Build configuration list for PBXNativeTarget "MutualFundTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1036066325F40EC200487EC7 /* Debug */,
+				1036066425F40EC200487EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1036062A25F40EC000487EC7 /* Project object */;
+}
