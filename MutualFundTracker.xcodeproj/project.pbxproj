@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100503442608E96100365460 /* MFSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100503432608E96100365460 /* MFSearchTableViewCell.swift */; };
+		100503492608E99000365460 /* MFSearchTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100503482608E99000365460 /* MFSearchTableViewCellModel.swift */; };
+		1005034E2608EB6600365460 /* MFSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005034D2608EB6600365460 /* MFSearchTableViewController.swift */; };
+		100503532608ECE600365460 /* MFSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100503522608ECE600365460 /* MFSearchViewModel.swift */; };
+		100934EE25FA811300F98FD7 /* MFScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100934ED25FA811300F98FD7 /* MFScheme.swift */; };
+		100934F325FA818700F98FD7 /* MFCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100934F225FA818700F98FD7 /* MFCoreDataStack.swift */; };
+		100934F825FA8A5E00F98FD7 /* SchemeNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100934F725FA8A5E00F98FD7 /* SchemeNav.swift */; };
+		101A3BD625F542D900914DA5 /* NetworkRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A3BD525F542D900914DA5 /* NetworkRequests.swift */; };
+		1020C27C261486DA00201104 /* MFNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020C27B261486DA00201104 /* MFNavigationVC.swift */; };
 		1036063625F40EC000487EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036063525F40EC000487EC7 /* AppDelegate.swift */; };
 		1036063825F40EC000487EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036063725F40EC000487EC7 /* SceneDelegate.swift */; };
-		1036063A25F40EC000487EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036063925F40EC000487EC7 /* ViewController.swift */; };
-		1036063D25F40EC000487EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036063B25F40EC000487EC7 /* Main.storyboard */; };
 		1036063F25F40EC200487EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1036063E25F40EC200487EC7 /* Assets.xcassets */; };
 		1036064225F40EC200487EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036064025F40EC200487EC7 /* LaunchScreen.storyboard */; };
 		1036064D25F40EC200487EC7 /* MutualFundTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036064C25F40EC200487EC7 /* MutualFundTrackerTests.swift */; };
 		1036065825F40EC200487EC7 /* MutualFundTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036065725F40EC200487EC7 /* MutualFundTrackerUITests.swift */; };
+		1036066D25F40F5300487EC7 /* MutualFund.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036066C25F40F5300487EC7 /* MutualFund.storyboard */; };
+		1036067725F40FD600487EC7 /* MFWatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */; };
+		1036068325F41A8300487EC7 /* MFWatchlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */; };
+		1036068A25F41D0100487EC7 /* MFCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1036068825F41D0100487EC7 /* MFCoreData.xcdatamodeld */; };
+		10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */; };
+		10820F3E25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */; };
+		10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100503432608E96100365460 /* MFSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFSearchTableViewCell.swift; sourceTree = "<group>"; };
+		100503482608E99000365460 /* MFSearchTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFSearchTableViewCellModel.swift; sourceTree = "<group>"; };
+		1005034D2608EB6600365460 /* MFSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFSearchTableViewController.swift; sourceTree = "<group>"; };
+		100503522608ECE600365460 /* MFSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFSearchViewModel.swift; sourceTree = "<group>"; };
+		100934ED25FA811300F98FD7 /* MFScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFScheme.swift; sourceTree = "<group>"; };
+		100934F225FA818700F98FD7 /* MFCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFCoreDataStack.swift; sourceTree = "<group>"; };
+		100934F725FA8A5E00F98FD7 /* SchemeNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeNav.swift; sourceTree = "<group>"; };
+		100934FF25FA930100F98FD7 /* MutualFundTracker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = MutualFundTracker.entitlements; sourceTree = "<group>"; };
+		101A3BD525F542D900914DA5 /* NetworkRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequests.swift; sourceTree = "<group>"; };
+		1020C27B261486DA00201104 /* MFNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNavigationVC.swift; sourceTree = "<group>"; };
 		1036063225F40EC000487EC7 /* MutualFundTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutualFundTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1036063525F40EC000487EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1036063725F40EC000487EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1036063925F40EC000487EC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1036063C25F40EC000487EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1036063E25F40EC200487EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1036064125F40EC200487EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1036064325F40EC200487EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +71,13 @@
 		1036065325F40EC200487EC7 /* MutualFundTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualFundTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1036065725F40EC200487EC7 /* MutualFundTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundTrackerUITests.swift; sourceTree = "<group>"; };
 		1036065925F40EC200487EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1036066C25F40F5300487EC7 /* MutualFund.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MutualFund.storyboard; sourceTree = "<group>"; };
+		1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistViewModel.swift; sourceTree = "<group>"; };
+		1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewController.swift; sourceTree = "<group>"; };
+		1036068925F41D0100487EC7 /* MutualFundModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MutualFundModel.xcdatamodel; sourceTree = "<group>"; };
+		10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCell.swift; sourceTree = "<group>"; };
+		10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCellModel.swift; sourceTree = "<group>"; };
+		10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101A3BD425F5429900914DA5 /* NetworkRequests */ = {
+			isa = PBXGroup;
+			children = (
+				101A3BD525F542D900914DA5 /* NetworkRequests.swift */,
+			);
+			path = NetworkRequests;
+			sourceTree = "<group>";
+		};
 		1036062925F40EC000487EC7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +136,12 @@
 		1036063425F40EC000487EC7 /* MutualFundTracker */ = {
 			isa = PBXGroup;
 			children = (
+				100934FF25FA930100F98FD7 /* MutualFundTracker.entitlements */,
+				101A3BD425F5429900914DA5 /* NetworkRequests */,
+				1036068725F41C2B00487EC7 /* CoreData */,
+				1036066B25F40F3800487EC7 /* MutualFund */,
 				1036063525F40EC000487EC7 /* AppDelegate.swift */,
 				1036063725F40EC000487EC7 /* SceneDelegate.swift */,
-				1036063925F40EC000487EC7 /* ViewController.swift */,
-				1036063B25F40EC000487EC7 /* Main.storyboard */,
 				1036063E25F40EC200487EC7 /* Assets.xcassets */,
 				1036064025F40EC200487EC7 /* LaunchScreen.storyboard */,
 				1036064325F40EC200487EC7 /* Info.plist */,
@@ -126,6 +165,35 @@
 				1036065925F40EC200487EC7 /* Info.plist */,
 			);
 			path = MutualFundTrackerUITests;
+			sourceTree = "<group>";
+		};
+		1036066B25F40F3800487EC7 /* MutualFund */ = {
+			isa = PBXGroup;
+			children = (
+				1036066C25F40F5300487EC7 /* MutualFund.storyboard */,
+				1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */,
+				1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */,
+				10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */,
+				10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */,
+				100503432608E96100365460 /* MFSearchTableViewCell.swift */,
+				100503482608E99000365460 /* MFSearchTableViewCellModel.swift */,
+				1005034D2608EB6600365460 /* MFSearchTableViewController.swift */,
+				100503522608ECE600365460 /* MFSearchViewModel.swift */,
+				10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */,
+				1020C27B261486DA00201104 /* MFNavigationVC.swift */,
+			);
+			path = MutualFund;
+			sourceTree = "<group>";
+		};
+		1036068725F41C2B00487EC7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1036068825F41D0100487EC7 /* MFCoreData.xcdatamodeld */,
+				100934ED25FA811300F98FD7 /* MFScheme.swift */,
+				100934F225FA818700F98FD7 /* MFCoreDataStack.swift */,
+				100934F725FA8A5E00F98FD7 /* SchemeNav.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1036064225F40EC200487EC7 /* LaunchScreen.storyboard in Resources */,
+				1036066D25F40F5300487EC7 /* MutualFund.storyboard in Resources */,
 				1036063F25F40EC200487EC7 /* Assets.xcassets in Resources */,
-				1036063D25F40EC000487EC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +326,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1036063A25F40EC000487EC7 /* ViewController.swift in Sources */,
+				100934F325FA818700F98FD7 /* MFCoreDataStack.swift in Sources */,
+				1036068325F41A8300487EC7 /* MFWatchlistTableViewController.swift in Sources */,
+				100934EE25FA811300F98FD7 /* MFScheme.swift in Sources */,
+				1036067725F40FD600487EC7 /* MFWatchlistViewModel.swift in Sources */,
+				100503532608ECE600365460 /* MFSearchViewModel.swift in Sources */,
+				100503492608E99000365460 /* MFSearchTableViewCellModel.swift in Sources */,
+				100934F825FA8A5E00F98FD7 /* SchemeNav.swift in Sources */,
+				101A3BD625F542D900914DA5 /* NetworkRequests.swift in Sources */,
+				1005034E2608EB6600365460 /* MFSearchTableViewController.swift in Sources */,
 				1036063625F40EC000487EC7 /* AppDelegate.swift in Sources */,
+				10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */,
+				10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */,
+				10820F3E25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift in Sources */,
 				1036063825F40EC000487EC7 /* SceneDelegate.swift in Sources */,
+				1036068A25F41D0100487EC7 /* MFCoreData.xcdatamodeld in Sources */,
+				100503442608E96100365460 /* MFSearchTableViewCell.swift in Sources */,
+				1020C27C261486DA00201104 /* MFNavigationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +378,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1036063B25F40EC000487EC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1036063C25F40EC000487EC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1036064025F40EC200487EC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ifao.cytric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,7 +534,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cytric.MutualFundTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ifao.cytric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -587,6 +661,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1036068825F41D0100487EC7 /* MFCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1036068925F41D0100487EC7 /* MutualFundModel.xcdatamodel */,
+			);
+			currentVersion = 1036068925F41D0100487EC7 /* MutualFundModel.xcdatamodel */;
+			path = MFCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1036062A25F40EC000487EC7 /* Project object */;
 }
