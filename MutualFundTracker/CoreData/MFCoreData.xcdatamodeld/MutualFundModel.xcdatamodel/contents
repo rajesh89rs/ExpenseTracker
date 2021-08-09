@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MFScheme" representedClassName=".MFScheme" syncable="YES" codeGenerationType="category">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="wishListed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="performance" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SchemeNav" inverseName="mfScheme" inverseEntity="SchemeNav"/>
+    </entity>
+    <entity name="SchemeNav" representedClassName=".SchemeNav" syncable="YES" codeGenerationType="category">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="nav" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="mfScheme" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MFScheme" inverseName="performance" inverseEntity="MFScheme"/>
+    </entity>
+    <elements>
+        <element name="MFScheme" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="SchemeNav" positionX="-54" positionY="9" width="128" height="88"/>
+    </elements>
+</model>
