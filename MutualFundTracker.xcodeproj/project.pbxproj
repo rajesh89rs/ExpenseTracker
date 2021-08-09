@@ -29,6 +29,8 @@
 		10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */; };
 		10820F3E25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */; };
 		10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */; };
+		10C8EC7026C19B5800E21147 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C8EC6F26C19B5800E21147 /* README.md */; };
+		10C8EC7326C1A0A100E21147 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8EC7226C1A0A100E21147 /* ColorUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCell.swift; sourceTree = "<group>"; };
 		10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCellModel.swift; sourceTree = "<group>"; };
 		10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundManager.swift; sourceTree = "<group>"; };
+		10C8EC6F26C19B5800E21147 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		10C8EC7226C1A0A100E21147 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		1036063425F40EC000487EC7 /* MutualFundTracker */ = {
 			isa = PBXGroup;
 			children = (
+				10C8EC7126C1A08E00E21147 /* Utils */,
 				100934FF25FA930100F98FD7 /* MutualFundTracker.entitlements */,
 				101A3BD425F5429900914DA5 /* NetworkRequests */,
 				1036068725F41C2B00487EC7 /* CoreData */,
@@ -145,6 +150,7 @@
 				1036063E25F40EC200487EC7 /* Assets.xcassets */,
 				1036064025F40EC200487EC7 /* LaunchScreen.storyboard */,
 				1036064325F40EC200487EC7 /* Info.plist */,
+				10C8EC6F26C19B5800E21147 /* README.md */,
 			);
 			path = MutualFundTracker;
 			sourceTree = "<group>";
@@ -194,6 +200,14 @@
 				100934F725FA8A5E00F98FD7 /* SchemeNav.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		10C8EC7126C1A08E00E21147 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				10C8EC7226C1A0A100E21147 /* ColorUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +315,7 @@
 			files = (
 				1036064225F40EC200487EC7 /* LaunchScreen.storyboard in Resources */,
 				1036066D25F40F5300487EC7 /* MutualFund.storyboard in Resources */,
+				10C8EC7026C19B5800E21147 /* README.md in Resources */,
 				1036063F25F40EC200487EC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +350,7 @@
 				100934F825FA8A5E00F98FD7 /* SchemeNav.swift in Sources */,
 				101A3BD625F542D900914DA5 /* NetworkRequests.swift in Sources */,
 				1005034E2608EB6600365460 /* MFSearchTableViewController.swift in Sources */,
+				10C8EC7326C1A0A100E21147 /* ColorUtils.swift in Sources */,
 				1036063625F40EC000487EC7 /* AppDelegate.swift in Sources */,
 				10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */,
 				10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */,

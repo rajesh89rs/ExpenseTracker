@@ -123,6 +123,20 @@ class MutualFundManager {
         }
     }
     
+    func deleteSavedMutualFunds(codes: [String]) {
+        let request: NSFetchRequest<MFScheme> = MFScheme.fetchRequest()
+        request.predicate = NSPredicate.init(format: "code IN %@", codes)
+        do {
+            let mfSchemes = try context.fetch(request)
+            for mfScheme in mfSchemes {
+                context.delete(mfScheme)
+            }
+            try context.save()
+        } catch {
+            print("delete: ", error)
+        }
+    }
+    
     func addMutualFundToWishlist(code: String) {
         let fetchRequest: NSFetchRequest<MFScheme> = MFScheme.fetchRequest()
         fetchRequest.predicate = NSPredicate(format: "code = %@", code)

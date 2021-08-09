@@ -28,6 +28,7 @@ class MFWatchlistTableViewCell: UITableViewCell {
         details.text = model.details
         value.text = String(describing: model.value)
         change.text = model.change
+        change.textColor = model.changeColor
     }
 
 }
