@@ -19,8 +19,8 @@ class MFWatchlistTableViewController: UITableViewController {
         let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addTapped))
         navigationItem.rightBarButtonItems = [add]
         navigationItem.searchController = searchController
-        viewModel.loadWishlistedMutualFunds()
         self.tableView.tableFooterView = UIView()
+        viewModel.loadWishlistedMutualFunds()
     }
     
     @objc func addTapped() {
