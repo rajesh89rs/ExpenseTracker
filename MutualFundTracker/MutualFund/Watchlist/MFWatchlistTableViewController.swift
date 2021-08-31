@@ -14,13 +14,15 @@ class MFWatchlistTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.delegate = self
         self.title = "Watchlist"
         let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addTapped))
         navigationItem.rightBarButtonItems = [add]
         navigationItem.searchController = searchController
-        viewModel.loadWishlistedMutualFunds()
         self.tableView.tableFooterView = UIView()
+        viewModel.sections.bind { [weak self] _ in
+            self?.tableView.reloadData()
+        }
+        viewModel.loadWishlistedMutualFunds()
     }
     
     @objc func addTapped() {
@@ -45,15 +47,15 @@ class MFWatchlistTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return viewModel.sections.count
+        return viewModel.sections.value.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.sections[section].watchlistCellModels?.count ?? 0
+        return viewModel.sections.value[section].watchlistCellModels?.count ?? 0
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let models = viewModel.sections[indexPath.section].watchlistCellModels {
+        if let models = viewModel.sections.value[indexPath.section].watchlistCellModels {
             let model = models[indexPath.row]
             if let cell = tableView.dequeueReusableCell(withIdentifier: "WatchlistCell", for: indexPath) as? MFWatchlistTableViewCell {
                 cell.setupWithModel(model: model)
@@ -66,18 +68,10 @@ class MFWatchlistTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             viewModel.handleDeleteMF(at: indexPath)
-            tableView.deleteRows(at: [indexPath], with: .fade)
+            //tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
 
-}
-
-extension MFWatchlistTableViewController: MFWatchlistViewModelDelegate {
-    
-    func reloadData() {
-        self.tableView.reloadData()
-    }
-    
 }
 
 extension MFWatchlistTableViewController: MFSearchTableViewControllerDelegate {

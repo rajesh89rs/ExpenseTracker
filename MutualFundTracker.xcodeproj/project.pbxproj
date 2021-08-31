@@ -28,6 +28,7 @@
 		1036068A25F41D0100487EC7 /* MFCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1036068825F41D0100487EC7 /* MFCoreData.xcdatamodeld */; };
 		10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */; };
 		10820F3E25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */; };
+		109A01AD26DEAB9C00E044D8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A01AC26DEAB9C00E044D8 /* Box.swift */; };
 		10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */; };
 		10C8EC7026C19B5800E21147 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C8EC6F26C19B5800E21147 /* README.md */; };
 		10C8EC7326C1A0A100E21147 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8EC7226C1A0A100E21147 /* ColorUtils.swift */; };
@@ -79,6 +80,7 @@
 		1036068925F41D0100487EC7 /* MutualFundModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MutualFundModel.xcdatamodel; sourceTree = "<group>"; };
 		10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCell.swift; sourceTree = "<group>"; };
 		10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCellModel.swift; sourceTree = "<group>"; };
+		109A01AC26DEAB9C00E044D8 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundManager.swift; sourceTree = "<group>"; };
 		10C8EC6F26C19B5800E21147 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10C8EC7226C1A0A100E21147 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
@@ -176,11 +178,8 @@
 		1036066B25F40F3800487EC7 /* MutualFund */ = {
 			isa = PBXGroup;
 			children = (
+				109A01AB26DEAB2A00E044D8 /* Watchlist */,
 				1036066C25F40F5300487EC7 /* MutualFund.storyboard */,
-				1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */,
-				1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */,
-				10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */,
-				10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */,
 				100503432608E96100365460 /* MFSearchTableViewCell.swift */,
 				100503482608E99000365460 /* MFSearchTableViewCellModel.swift */,
 				1005034D2608EB6600365460 /* MFSearchTableViewController.swift */,
@@ -202,10 +201,22 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		109A01AB26DEAB2A00E044D8 /* Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */,
+				1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */,
+				10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */,
+				10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */,
+			);
+			path = Watchlist;
+			sourceTree = "<group>";
+		};
 		10C8EC7126C1A08E00E21147 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				10C8EC7226C1A0A100E21147 /* ColorUtils.swift */,
+				109A01AC26DEAB9C00E044D8 /* Box.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -343,6 +354,7 @@
 			files = (
 				100934F325FA818700F98FD7 /* MFCoreDataStack.swift in Sources */,
 				1036068325F41A8300487EC7 /* MFWatchlistTableViewController.swift in Sources */,
+				109A01AD26DEAB9C00E044D8 /* Box.swift in Sources */,
 				100934EE25FA811300F98FD7 /* MFScheme.swift in Sources */,
 				1036067725F40FD600487EC7 /* MFWatchlistViewModel.swift in Sources */,
 				100503532608ECE600365460 /* MFSearchViewModel.swift in Sources */,
