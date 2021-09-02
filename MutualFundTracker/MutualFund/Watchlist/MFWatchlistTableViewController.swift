@@ -23,6 +23,8 @@ class MFWatchlistTableViewController: UITableViewController {
             self?.tableView.reloadData()
         }
         viewModel.loadWishlistedMutualFunds()
+        self.tableView.register(UINib(nibName: "MFundWatchlistTableViewCell", bundle: nil),
+                           forCellReuseIdentifier: "MFundWatchlistTableViewCell")
     }
     
     @objc func addTapped() {
@@ -57,10 +59,12 @@ class MFWatchlistTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let models = viewModel.sections.value[indexPath.section].watchlistCellModels {
             let model = models[indexPath.row]
-            if let cell = tableView.dequeueReusableCell(withIdentifier: "WatchlistCell", for: indexPath) as? MFWatchlistTableViewCell {
+            
+            if let cell = tableView.dequeueReusableCell(withIdentifier: "MFundWatchlistTableViewCell", for: indexPath) as? MFundWatchlistTableViewCell {
                 cell.setupWithModel(model: model)
                 return cell
             }
+            
         }
         return UITableViewCell.init(style: .default, reuseIdentifier: "")
     }
@@ -68,7 +72,6 @@ class MFWatchlistTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             viewModel.handleDeleteMF(at: indexPath)
-            //tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
 
