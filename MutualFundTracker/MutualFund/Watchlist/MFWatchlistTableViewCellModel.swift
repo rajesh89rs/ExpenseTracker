@@ -12,17 +12,21 @@ class MFWatchlistTableViewCellModel {
     var name: String?
     var code: String?
     var value: Double
+    var nav: String?
+    var cagr: String?
     var date: String?
     var change: String?
     var details: String?
-    var changeColor: UIColor = .black
+    var cagrColor: UIColor = .red
+    var changeColor: UIColor = .red
     
     init(mfScheme: MFScheme) {
         name = mfScheme.name
         code = mfScheme.code
         details = mfScheme.code
         value = 0.0
-        change = "--"
+        cagr = "0.00%"
+        change = "-0.00%"
         if let mfNavs = mfScheme.performance?.array as? [SchemeNav] {
             if let mfNav = mfNavs.first {
                 value = mfNav.nav
@@ -33,6 +37,7 @@ class MFWatchlistTableViewCellModel {
                 }
             }
         }
+        nav = String(describing: value)
     }
     
 }

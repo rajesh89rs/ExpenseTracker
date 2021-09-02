@@ -36,4 +36,68 @@ extension UIColor {
         )
     }
     
+    // Graphics: active icons
+    // Text: dark text (all headings)
+    class var gray90: UIColor {
+        return UIColor.hexStringToUIColor("#1A1A1A")
+    }
+    
+    // Graphics: n/a
+    // Text: n/a
+    class var gray80: UIColor {
+        return UIColor.hexStringToUIColor("#333333")
+    }
+    
+    // Graphics: toast background
+    // Text: body text, caption, overline
+    class var gray70: UIColor {
+        return UIColor.hexStringToUIColor("#4d4d4d")
+    }
+    
+    // Graphics: input fields icons, elements
+    // Text: disabled
+    class var gray60: UIColor {
+        return UIColor.hexStringToUIColor("#666666")
+    }
+    
+    // Graphics: n/a
+    // Text: light text
+    class var gray50: UIColor {
+        // Use .gray70 color if Increase Contrast enabled
+        if UIAccessibility.isDarkerSystemColorsEnabled {
+            return UIColor.hexStringToUIColor("#4d4d4d")
+        }
+        return UIColor.hexStringToUIColor("#808080")
+    }
+    
+    // Graphics: n/a
+    // Text: n/a
+    class var gray40: UIColor {
+        return UIColor.hexStringToUIColor("#999999")
+    }
+    
+    // Graphics: dark lines, inputs, outline buttons, inactive icons
+    // Text: n/a
+    class var gray30: UIColor {
+        return UIColor.hexStringToUIColor("#B3B3B3")
+    }
+    
+    // Graphics: borders, dividers
+    // Text: n/a
+    class var gray20: UIColor {
+        return UIColor.hexStringToUIColor("#CCCCCC")
+    }
+    
+    // Graphics: disabled background
+    // Text: n/a
+    class var gray10: UIColor {
+        return UIColor.hexStringToUIColor("#E6E6E6")
+    }
+    
+    // Graphics: background areas
+    // Text: n/a
+    class var gray5: UIColor {
+        return UIColor.hexStringToUIColor("#F2F2F2")
+    }
+    
 }

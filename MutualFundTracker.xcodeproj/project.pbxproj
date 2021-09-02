@@ -26,8 +26,9 @@
 		1036067725F40FD600487EC7 /* MFWatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */; };
 		1036068325F41A8300487EC7 /* MFWatchlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */; };
 		1036068A25F41D0100487EC7 /* MFCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1036068825F41D0100487EC7 /* MFCoreData.xcdatamodeld */; };
-		10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */; };
 		10820F3E25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */; };
+		1099854D26E14F6E00898BE0 /* MFundWatchlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099854B26E14F6E00898BE0 /* MFundWatchlistTableViewCell.swift */; };
+		1099854E26E14F6E00898BE0 /* MFundWatchlistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1099854C26E14F6E00898BE0 /* MFundWatchlistTableViewCell.xib */; };
 		109A01AD26DEAB9C00E044D8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A01AC26DEAB9C00E044D8 /* Box.swift */; };
 		10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */; };
 		10C8EC7026C19B5800E21147 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C8EC6F26C19B5800E21147 /* README.md */; };
@@ -78,8 +79,9 @@
 		1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistViewModel.swift; sourceTree = "<group>"; };
 		1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewController.swift; sourceTree = "<group>"; };
 		1036068925F41D0100487EC7 /* MutualFundModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MutualFundModel.xcdatamodel; sourceTree = "<group>"; };
-		10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCell.swift; sourceTree = "<group>"; };
 		10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFWatchlistTableViewCellModel.swift; sourceTree = "<group>"; };
+		1099854B26E14F6E00898BE0 /* MFundWatchlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFundWatchlistTableViewCell.swift; sourceTree = "<group>"; };
+		1099854C26E14F6E00898BE0 /* MFundWatchlistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MFundWatchlistTableViewCell.xib; sourceTree = "<group>"; };
 		109A01AC26DEAB9C00E044D8 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundManager.swift; sourceTree = "<group>"; };
 		10C8EC6F26C19B5800E21147 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -178,12 +180,9 @@
 		1036066B25F40F3800487EC7 /* MutualFund */ = {
 			isa = PBXGroup;
 			children = (
+				1099854A26E14E8900898BE0 /* SearchMF */,
 				109A01AB26DEAB2A00E044D8 /* Watchlist */,
 				1036066C25F40F5300487EC7 /* MutualFund.storyboard */,
-				100503432608E96100365460 /* MFSearchTableViewCell.swift */,
-				100503482608E99000365460 /* MFSearchTableViewCellModel.swift */,
-				1005034D2608EB6600365460 /* MFSearchTableViewController.swift */,
-				100503522608ECE600365460 /* MFSearchViewModel.swift */,
 				10B2DBD026124FFF00FE0292 /* MutualFundManager.swift */,
 				1020C27B261486DA00201104 /* MFNavigationVC.swift */,
 			);
@@ -201,13 +200,25 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		1099854A26E14E8900898BE0 /* SearchMF */ = {
+			isa = PBXGroup;
+			children = (
+				100503432608E96100365460 /* MFSearchTableViewCell.swift */,
+				100503482608E99000365460 /* MFSearchTableViewCellModel.swift */,
+				1005034D2608EB6600365460 /* MFSearchTableViewController.swift */,
+				100503522608ECE600365460 /* MFSearchViewModel.swift */,
+			);
+			name = SearchMF;
+			sourceTree = "<group>";
+		};
 		109A01AB26DEAB2A00E044D8 /* Watchlist */ = {
 			isa = PBXGroup;
 			children = (
 				1036067625F40FD600487EC7 /* MFWatchlistViewModel.swift */,
 				1036068225F41A8300487EC7 /* MFWatchlistTableViewController.swift */,
-				10820F3825FFE04800EB5C75 /* MFWatchlistTableViewCell.swift */,
 				10820F3D25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift */,
+				1099854B26E14F6E00898BE0 /* MFundWatchlistTableViewCell.swift */,
+				1099854C26E14F6E00898BE0 /* MFundWatchlistTableViewCell.xib */,
 			);
 			path = Watchlist;
 			sourceTree = "<group>";
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1036064225F40EC200487EC7 /* LaunchScreen.storyboard in Resources */,
+				1099854E26E14F6E00898BE0 /* MFundWatchlistTableViewCell.xib in Resources */,
 				1036066D25F40F5300487EC7 /* MutualFund.storyboard in Resources */,
 				10C8EC7026C19B5800E21147 /* README.md in Resources */,
 				1036063F25F40EC200487EC7 /* Assets.xcassets in Resources */,
@@ -364,10 +376,10 @@
 				1005034E2608EB6600365460 /* MFSearchTableViewController.swift in Sources */,
 				10C8EC7326C1A0A100E21147 /* ColorUtils.swift in Sources */,
 				1036063625F40EC000487EC7 /* AppDelegate.swift in Sources */,
-				10820F3925FFE04800EB5C75 /* MFWatchlistTableViewCell.swift in Sources */,
 				10B2DBD126124FFF00FE0292 /* MutualFundManager.swift in Sources */,
 				10820F3E25FFE20A00EB5C75 /* MFWatchlistTableViewCellModel.swift in Sources */,
 				1036063825F40EC000487EC7 /* SceneDelegate.swift in Sources */,
+				1099854D26E14F6E00898BE0 /* MFundWatchlistTableViewCell.swift in Sources */,
 				1036068A25F41D0100487EC7 /* MFCoreData.xcdatamodeld in Sources */,
 				100503442608E96100365460 /* MFSearchTableViewCell.swift in Sources */,
 				1020C27C261486DA00201104 /* MFNavigationVC.swift in Sources */,
